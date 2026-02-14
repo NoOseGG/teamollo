@@ -312,3 +312,68 @@ body {
     border-radius: 100px;
     cursor: pointer;
 }
+
+/* --------------ALL-WORK-------------= */
+
+.container {
+}
+
+.all-work__inner {
+    margin-bottom: 200px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-work__left {
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 1.1;
+    max-width: 546px;
+    position: relative;
+    letter-spacing: -4%;
+}
+
+.all-work__left::before {
+    content: "";
+    width: 228px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 197px;
+    right: -86px;
+}
+
+.all-work__center {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.33;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #b5ed3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-work__right {
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 1.1;
+    max-width: 546px;
+    align-self: flex-end;
+    text-align: end;
+    letter-spacing: -4%;
+    position: relative;
+}
+
+.all-work__right::before {
+    content: "";
+    width: 228px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 200px;
+    left: -50px;
+}
